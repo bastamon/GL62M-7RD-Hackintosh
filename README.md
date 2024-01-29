@@ -7,7 +7,7 @@ MSI-GL62M 7RD Hackintosh
 Hackintosh OpenCore configuration for [**MSI GL62M 7RD**][msi_overview].
 
 With a few modifications, can work for all GL62M 7RD version *theoretically*.
-Tested platform: `GL62M 7RD-224cn`.
+Tested platform: `GL62M 7RD-223cn`.
 
 Most of functions are working, include WIFI, Bluetooth, audio, Touchkpad, TypeC, USB, sleep and HDMI.
 
