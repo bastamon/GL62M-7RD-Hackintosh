@@ -11,8 +11,8 @@ Kexts list
 * [`WhateverGreen`][green_k]
 
 ## WiFi/ac && BT4LE [DW1820A]
-* [`AirportBrcmFixup`][air_k]
-* [`BrcmPatchRAM`][brcm_k]
+* [`itlwm `][air_k]
+* [`IntelBluetoothFirmware`][brcm_k]
 
 Note:
 Different kext installation location requires different firmware kext.
@@ -24,8 +24,8 @@ To use function keys on MSI keyboard the file at ``VoodooPS2Controller.kext/Cont
 More Custom Keyboard Mapping see [Wiki][ps2_wiki].
 
 [alc_k]: https://github.com/acidanthera/AppleALC/releases
-[air_k]: https://github.com/acidanthera/AirportBrcmFixup/releases
-[brcm_k]: https://github.com/acidanthera/BrcmPatchRAM/releases
+[air_k]: https://github.com/OpenIntelWireless/itlwm/releases
+[brcm_k]: https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases
 [brcm_doc_k]:https://github.com/acidanthera/BrcmPatchRAM/blob/master/README.md
 [ethernet_k]: https://github.com/Mieze/AtherosE2200Ethernet/releases
 [cpu_k]: https://github.com/acidanthera/CPUFriend/releases

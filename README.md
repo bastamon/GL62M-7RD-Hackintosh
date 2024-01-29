@@ -7,7 +7,7 @@ MSI-GL62M 7RD Hackintosh
 Hackintosh OpenCore configuration for [**MSI GL62M 7RD**][msi_overview].
 
 With a few modifications, can work for all GL62M 7RD version *theoretically*.
-Tested platform: `GL62M 7RD-223cn`.
+Tested platform: `GL62M 7RD-224cn`.
 
 Most of functions are working, include built-in camera, audio, Touchkpad, sleep and HDMI.
 
@@ -17,12 +17,12 @@ Most of functions are working, include built-in camera, audio, Touchkpad, sleep 
 ## Specifications
 | Basic | Spec Sheet |
 |--|--|
-| CPU | Intel i7-7700HQ |
+| CPU | Intel i7-7300HQ |
 | GPU | HD630 (eDP) |
 | Chipset | Intel HM175 |
 | Audio | Realtek ALC898 |
 | Ethernet | Atheros AR8175 |
-| WiFi | Broadcom BCM94350ZAE/DW1820A (M.2 2230) |
+| WiFi | Intel Wireless-AC3168 with Bluetooth|
 | Touchkpad | Synaptics (PS2) | 
 | USB controller | 100/C230 Series xHCI |
 
@@ -59,13 +59,13 @@ In BIOS, holding **ALT + RIGHT-CTRL + SHIFT** together then press **F2**
 [OpenCore Laptop Guide][dortania_link].
 
 ## WiFi & Bluetooth
-I assume you replaced the built-in Intel card with Broadcom BCM94350ZAE/DW1820A.
+I prefer the built-in Intel card, refer [OpenIntelWireless][intel_link] and remove DW1820A related config.
+
+If you prefer to replacing the built-in Intel card with Broadcom BCM94350ZAE/DW1820A.
 
 Install essential [Kext][brcm].
 
 For more details refer [osxlatitude][wlan_ts_link] and [Bluetooth Troubleshooting][bt_ts_link]
-
-If you prefer Intel card, refer [OpenIntelWireless][intel_link] and remove DW1820A related config.
 
 ## UEFI drivers
 ``` c++
