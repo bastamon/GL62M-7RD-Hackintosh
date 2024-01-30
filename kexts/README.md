@@ -9,6 +9,7 @@ Kexts list
 * [`VirtualSMC`][smc_k] (Include sensor kexts)
 * [`VoodooPS2Controller`][ps2_k]
 * [`WhateverGreen`][green_k]
+* [`USBToolBox`][USBToolBox_k]
 
 ## WiFi/ac && BT4LE [DW1820A]
 * [`itlwm `][air_k]
@@ -36,3 +37,4 @@ More Custom Keyboard Mapping see [Wiki][ps2_wiki].
 [ps2_k]: https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/
 [ps2_wiki]: https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller/wiki/How-to-Use-Custom-Keyboard-Mapping
 [green_k]: https://github.com/acidanthera/WhateverGreen/releases
+[USBToolBox_k]:https://github.com/USBToolBox/kext/releases
