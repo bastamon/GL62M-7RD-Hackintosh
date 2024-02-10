@@ -100,7 +100,7 @@ Fixing Battery Status // fixed
 More USB ports info can be found at [SSDT-UIAC.dsl][usb_map]
 
 [about_pic]: screenshots/About.png
-[brcm]: kexts
+[brcm]: https://github.com/0ranko0P/GL62M-7RD-Hackintosh/tree/OC_Bigsur_DW1820A/kexts#wifiac--bt4le-dw1820a
 [bt_ts_link]: https://osxlatitude.com/forums/topic/11540-dw1820a-the-general-troubleshooting-thread
 [dortania_link]: https://dortania.github.io/OpenCore-Install-Guide
 [dortania_link_post]: https://dortania.github.io/OpenCore-Post-Install
